@@ -1,0 +1,109 @@
+
+header {
+  display: flex;
+  justify-content: space-between;
+align-items: center;
+  padding: 10px; 
+ background: #0d1117;
+  position: sticky;
+  top: 0;
+ box-shadow: 1px 1px 10px 3px rgb(0, 0, 0, 0.4);
+ height: 80px;
+  border-bottom: 1px solid #30363d;
+}
+
+body {
+  margin: 0;
+background: #0d1117;
+}
+
+
+body * {
+  box-sizing: border-box;
+
+
+}
+
+.logo {
+width: 30%;
+height: 100%;
+ display: flex;
+justify-content: start;
+align-items: center;
+padding-left: 20px;
+border-radius: 70px;
+}
+
+.logo img {
+  height: 100%;
+  width: 70px;
+border-radius: 70px;
+
+}
+
+.navbar {
+  width: 40%;
+  height: 100%;
+ display: flex;  
+  align-items: center;
+  justify-content: center;
+  column-gap: 50px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #c9d1d9;
+
+  font-size: 16px;
+}
+
+.navbar a:hover {
+  color: #58a6ff;
+}
+
+
+.reg {
+  width: 30%;
+  height: 100%;
+display: flex;
+  align-items: center;
+
+justify-content: end;
+padding-right: 20px;
+  column-gap: 50px;
+}
+
+.reg button {
+  width: 120px;
+  height: 40px;
+border: 1px solid #30363d;
+
+
+  color: #c9d1d9;
+  background-color: #21262d;
+ border-radius: 7px;
+ cursor: pointer;
+  font-size: 16px;
+transition: all 0.2s;
+}
+
+.reg button:first-child {
+
+  background-color: #238636;
+border: 1px solid #2ea043;
+  color: #fff;
+}
+
+
+.reg button:hover {
+
+ background-color: #30363d;
+  border: 1px solid #8b949e;
+  color: #fff;
+}
+
+.reg button:first-child:hover {
+ 
+ background-color: #2ea043;
+  border: 1px solid #3fb950;
+}
