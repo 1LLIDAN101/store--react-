@@ -1,4 +1,4 @@
-import iphone from "./iphone.png"
+import iphone from "./product.png"
 
 function Products() {
     return(
@@ -15,15 +15,15 @@ function Products() {
 
                 <div className="card_bottom">
                     <div className="card_title">
-                        Iphone 17 PM
+                        zapret
                     </div>
 
                     <div className="card_desc">
-                        Iphone 17, в темно-синем цвете,не удивляйтесь тому что он на продаже сайте гитхаба
+                        JailBreak for DISCORD
                     </div>
 
                     <div className="card_price">
-                        1500$
+                          $free
                     </div>
                 </div>
             </div>
